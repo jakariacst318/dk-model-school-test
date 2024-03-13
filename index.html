@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--  -->
+    <script src="https://kit.fontawesome.com/864c94abeb.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="">
+        <div class="bg-slate-600 ">
+            <div class="flex justify-between p-5 ">
+                <img class="w-24 h-24 rounded-xl" src="images/logo-22.png" alt="">
+                <div class="text-white text-center">
+                    <h2 class="text-4xl font-semibold py-3">ধামাইলকান্দি কেফায়েত আলী আদর্শ বহুমুখী উচ্চ বিদ্যালয়</h2>
+                    <h3 class="font-semibold pt-5 pb-3">উল্লাপাড়া , সিরাজগঞ্জ </h3>
+                    <p class="font-semibold "> ইআইআইএন :  ১২৮৫৯২ ,&nbsp; স্থাপিত : ১৯৯৪ ইং</p>
+
+                </div>
+                <img class="w-20 h-20 " src="images/Government_Seal_of_Bangladesh.svg.png" alt="">
+            </div>
+            <!-- navbar -->
+            <div class="navbar text-white">
+                <div class="">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <!-- <li><a>Item 1</a></li> -->
+                            <li>
+                                <a>Parent</a>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Item 3</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl">Home</a>
+                </div>
+                <div class="navbar-center hidden lg:flex font-semibold">
+                    <ul class="menu menu-horizontal px-1">
+                        <!-- <li><a>Item 1</a></li> -->
+                        <li>
+                            <details>
+                                <summary>COLLAGE INFO</summary>
+                                <ul class="p-2 z-10 bg-slate-600">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>History</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary class="uppercase">Administration</summary>
+                                <ul class="p-2 z-10 bg-slate-600">
+                                    <li><a>Pincipal</a></li>
+                                    <li><a>Vice Pincipal</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>ACADEMIC</summary>
+                                <ul class="p-2 z-10 bg-slate-600">
+                                    <li><a>Routione</a></li>
+                                    <li><a>Class 6</a></li>
+                                    <li><a>Class 7</a></li>
+                                    <li><a>Class 8</a></li>
+                                    <li><a>Class 9</a></li>
+                                    <li><a>Class 10</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>GALLERY</summary>
+                                <ul class="p-2 z-10 bg-slate-600">
+                                    <li><a>Photo Gallery</a></li>
+                                    <li><a>Video Gallery</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li><a>Admission</a></li>
+                        <li><a>About</a></li>
+
+                    </ul>
+                </div>
+                <div class="">
+                    <a class="btn">Login</a>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+
+        <!-- carosol -->
+        <div class="max-w-7xl mx-auto px-5">
+            <div class="carousel w-full ">
+                <div id="slide1" class="carousel-item relative w-full h-2/4">
+                    <img src="images/carusol-1.jpg" class="w-full h-[500px]" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="images/carusol-2.jpg" class="w-full h-[500px]" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="images/carusol-3.jpg" class="w-full h-[500px]" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
+                        class="w-full h-[500px]" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto">
+        <!-- school history -->
+        <section>
+            <div class=" flex flex-col md:flex-col lg:flex-row gap-16 px-5 py-10">
+                <div class="border-2 border-indigo-600 rounded-lg p-2">
+                    <h2>প্রতিষ্ঠানের ইতিহাস</h2>
+                    <hr>
+                    <img src="images/a-scene-of-school-vector.jpg" alt="">
+                    <p>জাতি গঠনের শপথ নিয়ে ও অত্র এলাকায় শিক্ষার আলো ছড়াতে পাবনা জেলার সাঁথিয়া উপজেলার দৌলতপুর নামক
+                        জায়গায় দেশের অন্যতম কারিগরি শিক্ষাপ্রতিষ্ঠান গড়ার প্রত্যয়ে যাত্রা শুরু করলো “শহীদ শেখ রাসেল
+                        সরকারি টেকনিক্যাল স্কুল এন্ড কলেজ”।শিক্ষার্থীদের মেধা বিকাশের জাতীয় মূল ধারার বাংলা কারিগরি
+                        শিক্ষাব্যবস্থায় সুশৃঙ্খল পরিবেশে ও নৈতিক আদর্শের মানুষ গঠনের উদ্দেশ্য নিয়ে এ প্রতিষ্ঠানটি
+                        প্রতিষ্ঠিত। আলোকিত মানুষ গড়ার প্রত্যয়ে, বিস্তৃত খোলা প্রান্তরে ২০২১ সালে পাবনা জেলার ‍সাঁথিয়া
+                        উপজেলার সাঁথিয়া পৌরসভার মৌজার প্রায় ১.৫ একর জমিতে এই শিক্ষা প্রতিষ্ঠানটি গড়ে তোলা হয়েছে যেখানে
+                        রয়েছে ৫ তলা একাডেমিক ভবন এবং ৪ তলা বিশিষ্ট প্রশাসনিক ভবন। “শেখ রাসেল টেকনিক্যাল স্কুল এন্ড
+                        কলেজ”-এ ষষ্ঠ হতে দ্বাদশ শ্রেণি পর্যন্ত প্রভাতি ও দিবা শাখায় বাংলা মাধ্যমে শিক্ষা কার্যক্রম চালু
+                        রয়েছে।</p>
+                </div>
+                <div class="border-2 border-indigo-600 rounded-lg p-2">
+                    <h2 class="
+                    text-red">অধ্যক্ষ মহোদয়ের বাণী</h2>
+                    <hr>
+                    <div class="flex items-center justify-center"><img class="h-72 w-64" src="images/Principal.jpg"
+                            alt=""></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ipsum ipsam? In voluptatum sit
+                        neque quibusdam aspernatur asperiores quod reiciendis quia earum cupiditate, totam voluptate
+                        commodi ex quis consectetur fuga placeat reprehenderit impedit! Modi qui eum quibusdam veniam
+                        temporibus suscipit accusamus consequuntur harum delectus possimus quidem illum totam fuga hic,
+                        eveniet deleniti sit vero cupiditate eaque? A itaque ab deleniti ullam sed, accusantium iusto
+                        nisi voluptatum ad ipsa aliquam illo fuga. Nesciunt illum sit cupiditate qui amet fugit et atque
+                        a natus eum, molestias iste, necessitatibus ea asperiores neque magni ratione! Velit ullam
+                        perspiciatis consequuntur ipsam, totam facilis quos ea enim nobis esse facere veritatis veniam
+                        blanditiis perferendis nisi, iure cum sit natus labore. Ratione nobis inventore, qui eum
+                        assumenda nihil repellat ullam possimus vitae laboriosam! Libero at </p>
+                </div>
+            </div>
+        </section>
+        <!-- card section -->
+        <section>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-x-10 gap-y-5">
+
+                <!--1  -->
+                <div class=" bg-neutral-200 rounded-lg">
+                    <div class="bg-slate-700 rounded-t-lg">
+                        <h3 class="text-white font-semibold text-xl py-2 ps-2">অফিস আদেশ</h3>
+                    </div>
+                    <div class="hero-content flex-col lg:flex-row gap-x-10">
+                        <img class=" rounded-lg shadow-2xl w-28 h-28" src="images/images/1.png" />
+
+                        <div class="space-y-8 ">
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p><i class="fa-solid fa-circle-check"></i> &nbsp;এক নজরে </p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p class="py-2"><i class="fa-solid fa-circle-check"></i> &nbsp;ভাইস প্রিন্সিপালের বার্তা
+                                </p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p><i class="fa-solid fa-circle-check"></i> &nbsp;
+                                    সিটিজেন চার্টার </p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p class="pt-2"><i class="fa-solid fa-circle-check"></i> &nbsp;NOC (কর্মকর্তা ও
+                                    কর্মচারী) </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--2  -->
+                <div class=" bg-neutral-200 rounded-lg">
+                    <div class="bg-slate-700 rounded-t-lg">
+                        <h3 class="text-white font-semibold text-xl py-2 ps-2">শিক্ষকদের তথ্য</h3>
+                    </div>
+                    <div class="hero-content flex-col lg:flex-row gap-x-10">
+                        <img class=" rounded-lg shadow-2xl w-28 h-28" src="images/images/2.jpg" />
+
+                        <div class="space-y-8 ">
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p><i class="fa-solid fa-circle-check"></i> &nbsp;শিক্ষকদের তথ্য </p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p class="py-2"><i class="fa-solid fa-circle-check"></i> &nbsp;কর্মকর্তা-কর্মচারী</p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p><i class="fa-solid fa-circle-check"></i> &nbsp;অধ্যক্ষের কার্যালয় </p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p class="pt-2"><i class="fa-solid fa-circle-check"></i> &nbsp;প্রাক্তন অধ্যক্ষ গণ </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--3  -->
+                <div class="text-center ">
+                    <img class="flex items-center rounded-lg mx-auto w-40 h-48" src="images/teacher/শামসুল  আলম.png"
+                        alt="">
+                    <h3 class="text-xl font-semibold py-2">শামসুল আলম</h3>
+                    <p class="font-medium">প্রধান শিক্ষক</p>
+                    <a class="hover:text-[#ff3636]" href="">
+                        <p class="pt-1 font-semibold">বিস্তারিত </p>
+                    </a>
+                </div>
+
+                <!--4 -->
+                <div class=" bg-neutral-200 rounded-lg">
+                    <div class="bg-slate-700 rounded-t-lg">
+                        <h3 class="text-white font-semibold text-xl py-2 ps-2">একাডেমিক ক্যালেন্ডার</h3>
+                    </div>
+                    <div class="hero-content flex-col lg:flex-row gap-x-10">
+                        <img class=" rounded-lg shadow-2xl w-28 h-28" src="images/images/4.png" />
+
+                        <div class="space-y-8 ">
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p><i class="fa-solid fa-circle-check"></i> &nbsp; জেএসসি স্তর ক্যালেন্ডার </p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p class="py-2"><i class="fa-solid fa-circle-check"></i> &nbsp;এসএসসি স্তর ক্যালেন্ডার
+                                </p>
+                            </a>
+                            <!-- <a class="hover:text-[#ff3636]" href="">
+                                <p><i class="fa-solid fa-circle-check"></i> &nbsp;
+                                    সিটিজেন চার্টার </p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p class="pt-2"><i class="fa-solid fa-circle-check"></i> &nbsp;NOC (কর্মকর্তা ও কর্মচারী) </p>
+                            </a>                             -->
+                        </div>
+                    </div>
+                </div>
+
+                <!--5  -->
+                <div class=" bg-neutral-200 rounded-lg">
+                    <div class="bg-slate-700 rounded-t-lg">
+                        <h3 class="text-white font-semibold text-xl py-2 ps-2">ডাউনলোড</h3>
+                    </div>
+                    <div class="hero-content flex-col lg:flex-row gap-x-10">
+                        <img class=" rounded-lg shadow-2xl w-20 h-24" src="images/images/5.jpg" />
+
+                        <div class="space-y-8 ">
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p><i class="fa-solid fa-circle-check"></i> &nbsp;প্রথম সাময়িক পরীক্ষার রুটিন </p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p class="py-2"><i class="fa-solid fa-circle-check"></i> &nbsp;বার্ষিক পরীক্ষার রুটিন
+                                </p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p><i class="fa-solid fa-circle-check"></i> &nbsp; প্রথম সাময়িক পরীক্ষার ফলাফল </p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p class="pt-2"><i class="fa-solid fa-circle-check"></i> &nbsp; বার্ষিক পরীক্ষার ফলাফল
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--6  -->
+                <div class="text-center ">
+                    <img class="flex items-center rounded-lg mx-auto w-40 h-48" src="images/teacher/শামসুল  আলম.png"
+                        alt="">
+                    <h3 class="text-xl font-semibold py-2">শামসুল আলম</h3>
+                    <p class="font-medium">প্রধান শিক্ষক</p>
+                    <a class="hover:text-[#ff3636]" href="">
+                        <p class="pt-1 font-semibold">বিস্তারিত </p>
+                    </a>
+                </div>
+
+                <!--7  -->
+                <div class=" bg-neutral-200 rounded-lg">
+                    <div class="bg-slate-700 rounded-t-lg">
+                        <h3 class="text-white font-semibold text-xl py-2 ps-2">তথ্য অধিকার</h3>
+                    </div>
+                    <div class="hero-content flex-col lg:flex-row gap-x-10">
+                        <img class=" rounded-lg shadow-2xl w-28 h-28" src="images/images/6png.png" />
+
+                        <div class="space-y-8 ">
+                            <a class="hover:text-[#ff3636]" href="">
+                                <!-- <p></p> -->
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p class="py-2"><i class="fa-solid fa-circle-check"></i> &nbsp; ভর্তির তথ্য ও বিজ্ঞপ্তি
+                                </p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p><i class="fa-solid fa-circle-check"></i> &nbsp;
+                                    নোটিশ </p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p class="pt-2"><i class="fa-solid fa-circle-check"></i> &nbsp; ক্লাস নোটিশ </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--8-->
+                <div class=" bg-neutral-200 rounded-lg">
+                    <div class="bg-slate-700 rounded-t-lg">
+                        <h3 class="text-white font-semibold text-xl py-2 ps-2">বৃত্তি ও উপবৃত্তি সম্পর্কিত</h3>
+                    </div>
+                    <div class="hero-content flex-col lg:flex-row gap-x-10">
+                        <img class=" rounded-lg shadow-2xl w-28 h-28" src="images/bitti.jpg" />
+
+                        <div class="space-y-8 ">
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p><i class="fa-solid fa-circle-check"></i> &nbsp;সাধার উপবৃত্তি </p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p class="py-2"><i class="fa-solid fa-circle-check"></i> &nbsp; স্নাতক পাশ উপবৃত্তি</p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p><i class="fa-solid fa-circle-check"></i> &nbsp;
+                                    মেধা বৃত্তি </p>
+                            </a>
+                            <!-- <a class="hover:text-[#ff3636]" href="">
+                                <p class="pt-2"><i class="fa-solid fa-circle-check"></i> &nbsp;NOC (কর্মকর্তা ও কর্মচারী) </p>
+                            </a>                             -->
+                        </div>
+                    </div>
+                </div>
+
+                <!--9  -->
+                <div class="text-center ">
+                    <img class="flex items-center rounded-lg mx-auto w-40 h-48" src="images/teacher/শামসুল  আলম.png"
+                        alt="">
+                    <h3 class="text-xl font-semibold py-2">শামসুল আলম</h3>
+                    <p class="font-medium">প্রধান শিক্ষক</p>
+                    <a class="hover:text-[#ff3636]" href="">
+                        <p class="pt-1 font-semibold">বিস্তারিত </p>
+                    </a>
+                </div>
+                
+                <!--10  -->
+                <div class=" bg-neutral-200 rounded-lg">
+                    <div class="bg-slate-700 rounded-t-lg">
+                        <h3 class="text-white font-semibold text-xl py-2 ps-2">কলেজ ডাটাবেজ</h3>
+                    </div>
+                    <div class="hero-content flex-col lg:flex-row gap-x-10">
+                        <img class=" rounded-lg shadow-2xl w-28 h-28" src="images/database.png" />
+
+                        <div class="space-y-8 ">
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p><i class="fa-solid fa-circle-check"></i> &nbsp;অনলাইন ভর্তি ও ফরম পূরণ </p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p class="py-2"><i class="fa-solid fa-circle-check"></i> &nbsp; স্কুল ডাটাবেজ</p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p><i class="fa-solid fa-circle-check"></i> &nbsp;
+                                    ই- লাইব্রেরি </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 11 -->
+                <div class=" bg-neutral-200 rounded-lg">
+                    <div class="bg-slate-700 rounded-t-lg">
+                        <h3 class="text-white font-semibold text-xl py-2 ps-2">অভিযোগ প্রতিকার ব্যবস্থাপনা</h3>
+                    </div>
+                    <div class="hero-content flex-col lg:flex-row gap-x-10">
+                        <img class=" rounded-lg shadow-2xl w-28 h-28" src="images/ovijog.png" />
+
+                        <div class="space-y-8 ">
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p><i class="fa-solid fa-circle-check"></i> &nbsp;নির্দেশিকাসমূহ </p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p class="py-2"><i class="fa-solid fa-circle-check"></i> &nbsp; 
+                                    অভিযোগ নিষ্পত্তি কর্মকর্তা</p>
+                            </a>
+                            <a class="hover:text-[#ff3636]" href="">
+                                <p><i class="fa-solid fa-circle-check"></i> &nbsp;
+                                    ইভটিজিং প্রতিরোধ কর্মকর্তা </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 12 -->
+                <div class=" bg-neutral-200 rounded-lg">
+                    <div class="bg-slate-700 rounded-t-lg">
+                        <h3 class="text-white font-semibold text-xl py-2 ps-2">সামাজিক মাধ্যম </h3>
+                    </div>
+                    <div class="hero-content flex-col lg:flex-row gap-x-10">
+                        <div class="space-y-8 ">
+                            <a class="hover:text-[#ff3636] text-4xl" href="">
+                                <p ></i>ফেসবুক &nbsp; <i class="fa-brands fa-facebook  pb-6"></i></p>
+                            </a>
+                            <a class="hover:text-[#ff3636] text-4xl" href="">
+                                <p></i>ইউটিউব &nbsp; <i class="fa-brands fa-youtube "></i></p>
+                            </a>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
